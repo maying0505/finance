@@ -1,0 +1,29 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.slide-container li {
+    border-bottom: 1px solid rgba(237, 237, 246, 0.5);
+}
+
+.slide-container li div.active-li {
+    color: #7790f7;
+}
+
+.slide-container li .bar {
+    margin-left: 0.92rem;
+    font-size: 15px;
+    color: #494f6e;
+    line-height: 1.55rem;
+    padding: 0.62rem 2rem 0.62rem 0;
+}
+
+.slide-container li .text {
+    display: none;
+    margin-left: 2.5rem;
+    line-height: 1.5rem;
+    font-size: 14px;
+    color: #7e849d;
+    padding-right: 2rem;
+}

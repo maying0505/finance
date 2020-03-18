@@ -1,0 +1,36 @@
+.repayment-md-top {
+    padding: 15px;
+    margin: 15px 0;
+    line-height: 2em;
+}
+.amount {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.view-detail {
+    margin-left: 10px;
+}
+
+.repayment-steps img {
+    width: 100%;
+}
+
+.tip-suc2 {
+    width: 1px;
+    background-color: #e0b789;
+    top: 14px;
+}
+
+.tip-suc1, .tip-fail1 {
+    width: 14px;
+    height: 14px;
+    background-color: #e0b789;
+    top: 5px;
+}
+
+#copy-text {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+

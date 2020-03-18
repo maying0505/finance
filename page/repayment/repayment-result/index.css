@@ -1,0 +1,34 @@
+.rep-result-icon {
+    width: 50px;
+}
+
+.rep-result {
+    margin: 15px 0;
+}
+
+.rep-result-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.result-tip {
+    padding: 15px 40px;
+}
+
+
+.repaymenting {
+    display: block;
+}
+
+.repayment-success {
+    display: none;
+}
+
+.repayment-fail {
+    display: none;
+}
+
+.orange-btn {
+    display: none;
+}

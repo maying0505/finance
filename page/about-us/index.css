@@ -1,0 +1,14 @@
+body {
+    height: 100%;
+    overflow: hidden;
+    background-color: #f4f4fb;
+}
+
+.fc-wrapper {
+    text-align: center;
+}
+
+.fc-wrapper img {
+    width: 80%;
+    margin-top: 80px;
+}

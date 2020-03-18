@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+    background-color: #f4f4fb;
+}
+
+.state {
+    text-align: center;
+}
+
+.state span {
+    text-align: center;
+    font-size: 16px;
+}
+
+.state img {
+    display: block;
+    margin: 9.2rem auto 2.3rem;
+    width: 11.5rem;
+    height: 11.5rem;
+}
+
+.state1, .state2 {
+    display: none;
+}

@@ -1,0 +1,86 @@
+body {
+    background-color: #F4F5FA;
+    color: #535562;
+}
+
+.fc-wrapper {
+    display: none;
+}
+
+.loan-wrap {
+    margin-bottom: 100px;
+}
+
+.loan-status {
+    padding: 10px 15px;
+}
+
+.loan-steps {
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.tip-suc1 {
+    background-color: #0784F2;
+}
+
+.tip-suc2 {
+    background: -webkit-linear-gradient(#0784F2 40% , #CDCDCD 60%); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#0784F2 40%, #CDCDCD 60%); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#0784F2 40%, #CDCDCD 60%); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#0784F2 40%, #CDCDCD 60%); /* 标准的语法 */
+}
+
+.tip-suc2, .tip-fail2 {
+    width: 1px;
+    top: 15px;
+}
+
+.tip-suc1, .tip-fail1 {
+    width: 13px;
+    height: 13px;
+    top: 5px;
+}
+
+.result-tip-step-fail .tip-fail1 {
+    width: 10px;
+    height: 10px;
+    left: 2px;
+}
+
+.result-tip-step-fail .tip-fail2 {
+    top: 15px;
+}
+
+.result-tip-step-fail .tip-text {
+    color: #989BA3;
+}
+
+.tip-text {
+    font-weight: bold;
+}
+
+.detail-tip {
+    color: #989BA3;
+    margin-right: 10px;
+    width: 60px;
+    display: inline-block;
+}
+
+.loan-detail {
+    padding: 10px 15px;
+}
+
+.loan-detail li {
+    padding: 3px 0;
+}
+
+.rule {
+    color: #676cbd;
+}
+
+.orange-btn {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

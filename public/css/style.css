@@ -1,0 +1,314 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a,
+img {
+	border: none;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+li {
+	padding: 5px 0;
+}
+
+body {
+	background-color: #F2F2F2;
+	color: #333;
+	font: 14px/1.6 "Microsoft Yahei", Helvetica, Arial, sans-serif;
+}
+
+a {
+	border-bottom: 1px solid #333;
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.button {
+	padding: 0 15px;
+	cursor: pointer;
+	margin-right: 15px;
+	background: #f6f7fb;
+	border: 1px solid #c7ced2;
+	border-radius: 2px;
+	color: #191d24;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	outline: none;
+	font-family: "Microsoft Yahei";
+}
+
+.button:hover {
+	background-color: #f2f2f2;
+}
+
+.tpl-wrapper {
+	margin-top: 20px;
+}
+
+.flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.flex1 {
+	-prefix-box-flex: 1;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.flex2 {
+	-prefix-box-flex: 2;
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	-moz-box-flex: 2;
+	-ms-flex: 2;
+	flex: 2;
+}
+
+.flex-c {
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.flex-a-c{
+	-webkit-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-align-content: flex-start;
+	-ms-flex-line-pack: start;
+	align-content: center;
+}
+
+.flex-j-c {
+	-webkit-box-pack: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.flex-j-sa {
+	-webkit-box-pack: space-around;
+	-moz-justify-content: space-around;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+}
+
+.flex-j-sb {
+	-webkit-box-pack: space-between;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+
+
+.flex-a-i {
+	-webkit-box-align: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.white-b {
+	background-color: #fff;
+}
+
+.gray-style {
+	color: #939292;
+}
+
+.orange-style {
+	color: #E3B47F;
+}
+
+.blue-style {
+	color: #446fed;
+}
+
+.pad-lf15 {
+	padding: 0 15px;
+}
+
+.pad-rg15 {
+	padding: 15px 0
+}
+
+.pad15 {
+	padding: 15px;
+}
+
+.mar-bot4 {
+	margin-bottom: 4px;
+}
+
+.border-bot-gray {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.border-top-gray {
+	border-top: 1px solid #e5e5e5;
+}
+
+.form-imput {
+    border: 0;
+    outline: 0;
+}
+
+.orange-btn, .gray-btn {
+	margin-top: 70px;
+	margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-label {
+    color: #706f6f
+}
+
+.form-p {
+    padding: 15px 0;
+}
+
+#vcode-get {
+    outline: 0;
+    border: 0;
+	background-color: #fff;
+	width: 100px;
+}
+
+.orange-btn span, .gray-btn span {
+    background-color: #E0B789;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    width: 80%;
+    border-radius: 6px;
+ }
+
+.gray-btn span {
+	background-color: #bcbbbb;
+}
+
+.mask {
+	position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #333;
+    opacity: 0.7;
+}
+
+.position-re {
+	position: relative;
+}
+
+.font-s12 {
+	font-size: 12px;
+}
+.tip-suc1, .tip-fail1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #f78721;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+.tip-suc2, .tip-fail2 {
+    width: 3px;
+    height: calc(100% + 5px);
+    position: absolute;
+    display: inline-block;
+    background-color: #f78721;
+    top: 15px;
+    left: 6px;
+}
+
+.result-tip-step {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    padding-left: 35px;
+}
+
+.result-tip-step-t {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+}
+
+.tip-fail2, .tip-fail1 {
+    background-color: #CDCDCD;
+}
+
+.blue-style {
+	color: #0abef6;
+}
+
+.code-box label {
+	width: 33%;
+}
+
+.code-box span {
+	width: 66%;
+}
+
+#verificationCode, #vcode-get {
+	width: 50%
+}
+
+.mar-top15{
+	margin-top: 15px;
+}
+
+.pad10-15{
+	padding: 10px 15px;
+}
+
+.mar-rg20{
+	margin: 0 20px;
+}
+
+.mar-rg10{
+	margin: 0 10px;
+}
+
+.right-text {
+	text-align: right;
+}
+
+.uid {
+	margin-top: 10px;
+}

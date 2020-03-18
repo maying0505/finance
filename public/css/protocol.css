@@ -1,0 +1,73 @@
+body {
+    color: #677887;
+    margin: 0 auto;
+}
+
+.reg-agreement {
+    background: #fff;
+}
+
+.reg-agreement .reg-wrap {
+    line-height: 1.8rem;
+    padding: 1.5rem 1rem;
+    font-size: 16px;
+}
+
+.reg-agreement h1 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.reg-agreement h2 {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0.7rem 0;
+}
+
+.reg-agreement p {
+    text-indent: 2em;
+}
+
+.reg-agreement table {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+    width: 100%;
+}
+
+.reg-agreement table th, .reg-agreement table td {
+    font-weight: normal;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 0.1rem;
+}
+
+.reg-agreement p.normal {
+    text-indent: 0em;
+    margin-bottom: 0.4rem;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.reg-agreement p.right {
+    text-align: right;
+}
+
+.right {
+    /* float: right !important; */
+}
+
+.reg-agreement p.top {
+    margin-top: 0.15rem;
+}
+
+.reg-agreement p.no-indent {
+    text-indent: 0em;
+}
+
+.reg-agreement p.common {
+    text-indent: 0em;
+}

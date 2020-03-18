@@ -1,0 +1,10 @@
+.fc-wrapper {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 20%;
+}
+
+.fc-wrapper img {
+    width: 34%
+}

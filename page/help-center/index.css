@@ -1,0 +1,114 @@
+body, html {
+    height: 100%;
+}
+body {
+    color: #677887;
+    background: #f4f4fb !important;
+    line-height: 1;
+}
+.header-container {
+    padding-top: 1.38rem;
+    background-color: #fff;
+    padding-bottom: 1.38rem;
+    margin-bottom: 0.48rem;
+}
+
+.header-container div {
+    width: 50%;
+}
+
+.header-container div .talk {
+    background-image: url('./image/zxzx@2x.png');
+    background-size: cover;
+}
+
+.header-container div .phone {
+    background-image: url('./image/dhzx@2x.png');
+    background-size: cover;
+}
+
+.header-container div a {
+    width: 4.3rem;
+    height: 4.3rem;
+    margin-bottom: 0.76rem;
+    font-size: 14px;
+    color: #7e849d;
+    border-bottom: 0;
+}
+
+.header-container div p {
+    font-size: 12px;
+}
+
+.main-container {
+    padding-top: 0.713rem;
+    background-color: #fff;
+}
+
+.main-container .main-container-title {
+    height: 2.21rem;
+    font-size: 18px;
+    color: #494f6e;
+}
+
+.main-container-title span {
+    display: inline-block;
+    height: 1.5px;
+    width: 2.3rem;
+    margin: 0 1.15rem;
+    background-color: #b3b2b2;
+}
+
+.main-container li {
+    height: 3.06rem;
+    border-bottom: 1px solid #ededf6;
+    padding-left: 0.92rem;
+}
+
+.main-container li div {
+    height: 100%;
+}
+
+.main-container li a {
+    height: 3.06rem;
+    width: 3.06rem;
+    background-image: url('./image/arrowright@2x.png');
+    background-size: 0.39rem 0.76rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.main-container li div .state1 {
+    background-image: url('./image/re@2x.png');
+    background-size: cover;
+    height: 1.84rem;
+}
+
+.main-container li div .state2 {
+    background-image: url('./image/jie@2x.png');
+    background-size: cover;
+}
+
+.main-container li div .state3 {
+    background-image: url('./image/huan@2x.png');
+    background-size: cover;
+    height: 1.4rem;
+}
+
+.main-container li div .state5 {
+    background-image: url('./image/other@2x.png');
+    background-size: cover;
+    height: 1.61rem;
+}
+
+.main-container li div span {
+    width: 1.495rem;
+    height: 1.679rem;
+    margin-right: 0.621rem;
+}
+
+.main-container li div p {
+    font-size: 16px;
+    color: #7e849d;
+}
